@@ -12,7 +12,7 @@ const addlistener = () => {
     nativeRange.style.height = `${SLIDER_HEIGHT + 15}px`;
     nativeRange.style.top = `calc(-100% - ${SLIDER_HEIGHT - 5}px)`;
 
-    const volInput = document.querySelector<HTMLInputElement>(".nativeRange--ZV0FD")!;
+    const volInput = document.querySelector<HTMLInputElement>(".nativeRange--u6L4A")!;
     if (!volInput) return false;
     volInput.style.minWidth = `${SLIDER_HEIGHT}px`;
   });
